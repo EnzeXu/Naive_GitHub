@@ -166,6 +166,7 @@ In this example I write the README.md file and push it.
 
 1. You cannot upload a single file exceeding 100 MB. Consider to exclude it using `.gitignore`.
 2. Every time before you do the `push` operation, it is very recommended to use a `git status` command to check the status of your repo.
+<img width="696" alt="Screenshot 2023-05-01 at 10 53 53 AM" src="https://user-images.githubusercontent.com/90367338/235486441-16064798-8fb7-4605-800e-fb10b04fa139.png">
 
 3. Go ahead and be careful!
 
