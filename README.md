@@ -165,6 +165,10 @@ In this example I write the README.md file and push it.
 ### 4.2 Tips
 
 1. You cannot upload a single file exceeding 100 MB. Consider to exclude it using `.gitignore`.
-2. TODO list: requirements.txt and LICENSE
+2. Every time before you do the `push` operation, it is very recommended to use a `git status` command to check the status of your repo.
+
+3. Go ahead and be careful!
 
 ***
+
+[//]: # ( TODO list: requirements.txt and LICENSE)
