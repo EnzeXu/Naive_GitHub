@@ -72,6 +72,9 @@ Where `.DS_Store` is for macOS, `.idea/*` and `__pycache__/*` for PyCharm defaul
 <img width="695" alt="Screenshot 2023-05-01 at 10 52 01 AM" src="https://user-images.githubusercontent.com/90367338/235484417-1ba6fc87-a6a4-4d4e-ba3b-5791b73de04c.png">
 <img width="441" alt="Screenshot 2023-05-01 at 10 53 07 AM" src="https://user-images.githubusercontent.com/90367338/235484437-7a3d2c8a-73aa-44f8-8b95-f88fe9136b2b.png">
 <img width="955" alt="Screenshot 2023-05-01 at 10 53 26 AM" src="https://user-images.githubusercontent.com/90367338/235484466-ae15ab0a-8f2a-4528-aba6-52d205e7fdc2.png">
+
+After I edit the `.gitignore` file in `figure/`, the color of file `map.png` changes in the left side bar. 
+
 <img width="871" alt="Screenshot 2023-05-01 at 10 53 58 AM" src="https://user-images.githubusercontent.com/90367338/235484539-09c5bf9b-eb1c-456f-a7a8-cab6971509ec.png">
 
 In this example I exclude `map.png![Uploading Screenshot 2023-05-01 at 10.53.58 AM.png…]()
