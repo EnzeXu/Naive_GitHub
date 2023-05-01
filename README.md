@@ -77,8 +77,7 @@ After I edit the `.gitignore` file in `figure/`, the color of file `map.png` cha
 
 <img width="871" alt="Screenshot 2023-05-01 at 10 53 58 AM" src="https://user-images.githubusercontent.com/90367338/235484539-09c5bf9b-eb1c-456f-a7a8-cab6971509ec.png">
 
-In this example I exclude `map.png![Uploading Screenshot 2023-05-01 at 10.53.58 AM.png…]()
-` but track `cat.png` in my repo.
+In this example I exclude `map.png!` but track `cat.png` in my repo.
 
 ### 2.3 git add .
 
