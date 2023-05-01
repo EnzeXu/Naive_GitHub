@@ -48,11 +48,26 @@ Hint: To move or remove your local repository info, you can just `rm -rf .git`.
 
 In `.gitignore`:
 
-1. `xxx.yyy` means you want to exclude file xxx.yyy into your repo.
-2. `!xxx.yyy` means you want to include file xxx.yyy into your repo.
-3. The later lines in this file will overwrite the former lines if they have conflicts.
-4. You can use `*` here to represent all matchable files like `*`, `test_*`, `saves/*`, etc.
-5. It is recommended that in each folder there is a `.gitignore` file.
+1. By default, all files in your repo are considered to be included (tracked) by GitHub.
+2. `xxx.yyy` means you want to exclude file xxx.yyy into your repo.
+3. `!xxx.yyy` means you want to include file xxx.yyy into your repo.
+4. The later lines in this file will overwrite the former lines if they have conflicts.
+5. You can use `*` here to represent all matchable files like `*`, `test_*`, `saves/*`, etc.
+6. It is recommended that in each folder there is a `.gitignore` file.
+7. Usually we list some `xxx.yyy` lines first and then list some `!xxx.yyy` to make some changes.
+
+An example for your highest-level `.gitignore` (directly in your repo folder):
+
+```gitignore
+.DS_Store
+.idea/*
+__pycache__/*
+venv/*
+```
+
+Where `.DS_Store` is for macOS, `.idea/*` and `__pycache__/*` for PyCharm default compilation files and `venv/*` for your virtual environment.
+
+In this example I exclude `map.png` but track `cat.png` in my repo.
 
 ### 2.3 git add .
 
