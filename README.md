@@ -25,6 +25,7 @@
 1. Install Git (https://git-scm.com/) and register online
 2. Install PyCharm (https://www.jetbrains.com/pycharm/)
 3. Create a folder and `cd` into it
+<img width="1035" alt="Screenshot 2023-05-01 at 10 49 47 AM" src="https://user-images.githubusercontent.com/90367338/235484279-a58af348-de8c-45f5-910a-8a1b40eee3c9.png">
 
 ---
 
@@ -41,6 +42,7 @@ Hint: To move or remove your local repository info, you can just `rm -rf .git`.
 ```shell
 % git init
 ```
+<img width="609" alt="Screenshot 2023-05-01 at 10 50 08 AM" src="https://user-images.githubusercontent.com/90367338/235484331-d2d7bc1a-fcee-4715-bb65-278ccabcfaaa.png">
 
 ### 2.2 create .gitignore
 
@@ -66,8 +68,14 @@ venv/*
 ```
 
 Where `.DS_Store` is for macOS, `.idea/*` and `__pycache__/*` for PyCharm default compilation files and `venv/*` for your virtual environment.
+<img width="401" alt="Screenshot 2023-05-01 at 10 50 45 AM" src="https://user-images.githubusercontent.com/90367338/235484389-e397626d-6ea9-4a24-bad8-9c0c22272c3d.png">
+<img width="695" alt="Screenshot 2023-05-01 at 10 52 01 AM" src="https://user-images.githubusercontent.com/90367338/235484417-1ba6fc87-a6a4-4d4e-ba3b-5791b73de04c.png">
+<img width="441" alt="Screenshot 2023-05-01 at 10 53 07 AM" src="https://user-images.githubusercontent.com/90367338/235484437-7a3d2c8a-73aa-44f8-8b95-f88fe9136b2b.png">
+<img width="955" alt="Screenshot 2023-05-01 at 10 53 26 AM" src="https://user-images.githubusercontent.com/90367338/235484466-ae15ab0a-8f2a-4528-aba6-52d205e7fdc2.png">
+<img width="871" alt="Screenshot 2023-05-01 at 10 53 58 AM" src="https://user-images.githubusercontent.com/90367338/235484539-09c5bf9b-eb1c-456f-a7a8-cab6971509ec.png">
 
-In this example I exclude `map.png` but track `cat.png` in my repo.
+In this example I exclude `map.png![Uploading Screenshot 2023-05-01 at 10.53.58 AM.png…]()
+` but track `cat.png` in my repo.
 
 ### 2.3 git add .
 
@@ -88,13 +96,18 @@ Hint: You may use `git branch -a` at any time to see all branches and the curren
 ```shell
 % git branch -M main
 ```
+<img width="418" alt="Screenshot 2023-05-01 at 10 56 46 AM" src="https://user-images.githubusercontent.com/90367338/235484569-5564f1de-4e12-4c0d-bd57-3fabcf641f9f.png">
 
 ### 2.5 create your repository online
+<img width="969" alt="Screenshot 2023-05-01 at 10 54 46 AM" src="https://user-images.githubusercontent.com/90367338/235484617-15948f78-47b4-4c57-9dc7-1d81c95eecc6.png">
 
 Click `New`.
+<img width="1008" alt="Screenshot 2023-05-01 at 10 55 18 AM" src="https://user-images.githubusercontent.com/90367338/235484640-c078fc88-a267-4932-a1c3-183f52311c09.png">
+
 
 
 Choose a proper repo name. It can be different from your current folder name, but they are recommended to be the same.
+<img width="1419" alt="Screenshot 2023-05-01 at 10 55 33 AM" src="https://user-images.githubusercontent.com/90367338/235484677-76c742f1-ac0e-450b-91c5-5751cad3a35a.png">
 
 
 In the instruction page, copy the line `git remote add origin ...` and you will use it later.
@@ -106,6 +119,7 @@ Paste what you have copied to your terminal. This help to build the connection f
 ```shell
 % git remote add origin https://github.com/USERNAME/REPONAME.git
 ```
+<img width="695" alt="Screenshot 2023-05-01 at 12 09 19 PM" src="https://user-images.githubusercontent.com/90367338/235484806-14dcf10c-fa3d-4b3d-8938-5e69ff6039b1.png">
 
 ### 2.7 git push -u origin main
 
@@ -114,6 +128,9 @@ This is a one-time step that push your local repo to online as initialization. L
 ```shell
 % git push -u origin main
 ```
+<img width="484" alt="Screenshot 2023-05-01 at 10 57 28 AM" src="https://user-images.githubusercontent.com/90367338/235484833-e06b52fb-0e8e-46e4-bf39-6e2d51f4d381.png">
+<img width="450" alt="Screenshot 2023-05-01 at 10 57 45 AM" src="https://user-images.githubusercontent.com/90367338/235484871-cf48f532-7839-422f-bd61-3e116063f681.png">
+<img width="1298" alt="Screenshot 2023-05-01 at 10 58 41 AM" src="https://user-images.githubusercontent.com/90367338/235484898-18262a25-d6dc-4e20-8242-3ad180ca459a.png">
 
 ---
 
@@ -126,6 +143,11 @@ Any time after you have edited your repo and corresponding `.gitignore` files.
 % git commit -m "updated xxx"
 % git push
 ```
+<img width="421" alt="Screenshot 2023-05-01 at 10 58 51 AM" src="https://user-images.githubusercontent.com/90367338/235484973-048e5334-d4af-4961-96c1-a9006cf58e0f.png">
+<img width="1012" alt="Screenshot 2023-05-01 at 11 10 25 AM" src="https://user-images.githubusercontent.com/90367338/235484983-f603227d-c45f-4872-a0f7-e904ee20d09e.png">
+<img width="534" alt="Screenshot 2023-05-01 at 11 11 04 AM" src="https://user-images.githubusercontent.com/90367338/235485007-8d44ad76-3818-4dfb-a33f-df866dc4cfe5.png">
+
+In this example I write the README.md file and push it.
 
 ---
 
